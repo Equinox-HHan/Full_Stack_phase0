@@ -1,7 +1,11 @@
 [project]
 name = "full-stack-phase0"
 version = "0.1.0"
-description = "Add your description here"
+description = "Phase 0 Week 1 现代工程工具箱：类型化装饰器、魔术方法容器与异步调度"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "asyncio>=4.0.0",
+    "requests>=2.34.2",
+    "rich>=15.0.0",
+]
